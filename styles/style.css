@@ -27,6 +27,13 @@
   border-radius: 5px;
   background-color: #4e47ff;
   border: none;
+   font-weight: bold;
+  font-size: 16px;
+  padding: 12px 36px;
+}
+.shared-title {
+    font-weight: bold;
+    font-size: 42px;
 }
 /* section, nav {
     max-width: 1140px;
@@ -69,8 +76,32 @@ nav {
   font-size: 65px;
 }
 .banner-btn {
-  font-weight: bold;
-  font-size: 16px;
+ 
 
-  padding: 12px 36px;
+  
 }
+/* header end */
+
+/* main start */
+.action-para{
+    font-weight: normal;
+    font-size: 24px;
+}
+.action-btn{
+
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 150px;
+    align-items: center;
+}
+.action-description{
+    width: 517px;
+}
+.action-image{
+    width: 450px;
+    border-radius: 50px;
+}
+/* main end */
