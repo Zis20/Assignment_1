@@ -27,14 +27,24 @@
   border-radius: 5px;
   background-color: #4e47ff;
   border: none;
-   font-weight: bold;
+  font-weight: bold;
   font-size: 16px;
   padding: 12px 36px;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: rgb(23, 177, 128);
+  
 }
 .shared-title {
-    font-weight: bold;
-    font-size: 42px;
+  font-weight: bold;
+  font-size: 42px;
 }
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 /* section, nav {
     max-width: 1140px;
     margin: 0 auto;
@@ -60,7 +70,6 @@ nav {
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
-  padding: 12px 36px;
 }
 
 /* navbar styles End */
@@ -76,32 +85,64 @@ nav {
   font-size: 65px;
 }
 .banner-btn {
- 
-
-  
 }
 /* header end */
 
 /* main start */
-.action-para{
-    font-weight: normal;
-    font-size: 24px;
+/* action start */
+.action-para {
+  font-weight: normal;
+  font-size: 24px;
 }
-.action-btn{
+.action-btn {
+}
 
+.action {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 150px;
+  align-items: center;
+}
+.action-description {
+  width: 517px;
+}
+.action-image {
+  width: 450px;
+  border-radius: 50px;
+}
+/* action end */
+
+/* join start */
+.join-container {
+  padding: 50px 140px;
+  text-align: center;
+  background-color: rgba(78, 71, 255, 0.1);
+  margin: 120px 150px;
+  border-radius: 20px;
 }
 
-.action{
-    display: flex;
-    justify-content: space-between;
-    margin: 100px 150px;
-    align-items: center;
+.number-stat {
+  font-weight: bold;
+  font-size: 80px;
+  color: #4e47ff;
+  margin-bottom: 0px;
 }
-.action-description{
-    width: 517px;
+.stat-name {
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 1px;
 }
-.action-image{
-    width: 450px;
-    border-radius: 50px;
+.users {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
 }
+
+.user-statistics {
+  text-align: center;
+  align-items: center;
+  margin-top: 1px;
+}
+
 /* main end */
