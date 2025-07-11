@@ -19,12 +19,24 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+
 /* fonts end */
 body{
-background: #ffffff;
-background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(207, 207, 207, 1) 50%, rgba(128, 121, 121, 1) 96%, rgba(179, 170, 170, 1) 100%);
-}
+background: #f5f8ff;
+ 
+} 
 /* shared styles */
+
+.title-color{
+  color: #252432;
+}
+.para-color{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.para-color-2{
+  color:rgb(95, 94, 100);
+}
 .btn-primary {
   color: #ffffff;
   border-radius: 5px;
@@ -47,10 +59,9 @@ a {
   color: #ffffff;
 }
 
-/* section, nav {
-    max-width: 1140px;
-    margin: 0 auto;
-} */
+section {
+   margin-bottom: 200px;
+}
 
 /* header styles */
 .header {
@@ -63,6 +74,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 0px 150px;
+  align-items: center;
 }
 .logo {
   font-weight: 900;
@@ -72,6 +84,7 @@ nav {
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
+  height: 48px;
 }
 
 /* navbar styles End */
@@ -87,6 +100,7 @@ nav {
   font-size: 65px;
 }
 .banner-btn {
+
 }
 /* header end */
 
@@ -97,6 +111,7 @@ nav {
   font-size: 24px;
 }
 .action-btn {
+
 }
 
 .action {
@@ -213,18 +228,38 @@ nav {
 }
 label, input {
   display: block;
-  margin-bottom: 10px;
-  height: 10px;
+ 
 }
 label{
   color: rgba(0, 0, 0, 1);
   font-weight: 600;
   font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  
+  
   
 }
 input{
   background-color: #FFFFFF;
-  line-height: 10px;
+
+  font-size: 20px;
+  height: 70px;
+  width: 500px;
+  padding: 10px;
+  color: rgb(135, 139, 139);
+  border-radius: 10px;
+ margin-top: 15px;
+}
+textarea{
+  background-color: #FFFFFF;
+
+  font-size: 20px;
+  height: 70px;
+  width: 500px;
+  padding: 10px;
+  color: rgb(160, 165, 165);
+  border-radius: 10px;
 }
 .form-header{
   font-weight: bold;
@@ -239,3 +274,39 @@ input{
   width: 500px;
 }
 /* main end */
+
+/* footer start
+ */
+
+ footer ul li {
+  /* display: flex; */
+  display: inline;
+  margin-right: 40px;
+  
+  
+ }
+
+ 
+
+ footer{
+  text-align: center;
+
+  padding:100px 450px ; 
+  
+  background-color: #ffffff;
+               
+ }
+ .footer-div{
+width: 500px;
+margin-left: 250px;
+
+ }
+
+ .footer-nav, .footer-description,.footer-title{
+  margin-bottom: 15px;
+ }
+ .footer-title{
+  font-weight: black;
+  color: #4e47ff;
+  font-size: 100px;
+ }
