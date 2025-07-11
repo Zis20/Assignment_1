@@ -20,7 +20,10 @@
   font-variation-settings: "wdth" 100;
 }
 /* fonts end */
-
+body{
+background: #ffffff;
+background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(207, 207, 207, 1) 50%, rgba(128, 121, 121, 1) 96%, rgba(179, 170, 170, 1) 100%);
+}
 /* shared styles */
 .btn-primary {
   color: #ffffff;
@@ -34,7 +37,6 @@
 }
 .btn-primary:hover {
   background-color: rgb(23, 177, 128);
-  
 }
 .shared-title {
   font-weight: bold;
@@ -144,5 +146,96 @@ nav {
   align-items: center;
   margin-top: 1px;
 }
+/* user end */
 
+/* review start*/
+.users-reveiw {
+  text-align: center;
+  padding: 0px 100px;
+}
+.reveiws {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.reveiwers {
+  background-color: #f2eded;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: start;
+  width: 370px;
+}
+.reveiw-title {
+  font-weight: 600px;
+  font-size: 24px;
+  color: #1e1e1e;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+.reveiw-text {
+  font-weight: normal;
+  font-size: 16px;
+  color: #1e1e1e;
+  width: 320px;
+  margin-bottom: 24px;
+}
+.reveiwer-name {
+  font-weight: 600;
+  font-size: 16px;
+  color: #757575;
+}
+.dates {
+  font-weight: normal;
+  font-size: 16px;
+  color: #b3b3b3;
+}
+.star-img {
+  margin-bottom: 24px;
+}
+.reveiwer-image {
+  border-radius: 50%;
+}
+.reveiwer-footer {
+  display: flex;
+  width: 320px;
+  height: 46px;
+  align-items: center;
+  gap: 12px;
+}
+/* review end */
+/* form */
+.form-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px;
+  
+  align-items: center;
+}
+label, input {
+  display: block;
+  margin-bottom: 10px;
+  height: 10px;
+}
+label{
+  color: rgba(0, 0, 0, 1);
+  font-weight: 600;
+  font-size: 18px;
+  
+}
+input{
+  background-color: #FFFFFF;
+  line-height: 10px;
+}
+.form-header{
+  font-weight: bold;
+  font-size: 97px;
+  width: 500px;
+ color: rgba(0, 0, 0, 1);
+}
+.form-class{
+  width: 500px;
+}
+.submit-btn{
+  width: 500px;
+}
 /* main end */
